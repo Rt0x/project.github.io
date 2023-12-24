@@ -3,7 +3,7 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
- @charset "UTF-8";
+
  .fr-clearfix::after {
     clear: both;
     display: block;
@@ -360,14 +360,13 @@
         float: right;
         margin: 5px 0 5px 5px;
         max-width: calc(100% - 5px); }
-        .u-hidden-block {
-          visibility: hidden;
-        }
-        
-        .u-locked-block {
-          pointer-events: none;
-        }
-        
+  /*end-commonstyles library*/@charset "UTF-8";
+  .u-hidden-block {
+    visibility: hidden!important;
+  }
+  .u-locked-block {
+    pointer-events: none!important;
+  }
   /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
   html {
     font-family: sans-serif;
@@ -21546,14 +21545,14 @@
     }
     to {
       transform-origin: center center;
-      transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1) rotate3d(0, 0, 1, 0);
+      transform: translate3d(-50% !important, -50% !important, 0);
       opacity: 1;
     }
   }
   @keyframes customAnimationOut {
     from {
       transform-origin: center center;
-      transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1) rotate3d(0, 0, 1, 0);
+      transform: translate3d(-50% !important, -50% !important, 0);
       opacity: 1;
     }
     to {
@@ -21562,7 +21561,6 @@
       opacity: var(--animation-custom_in-opacity);
     }
   }
-  
   .customAnimationIn {
     animation-name: customAnimationIn;
   }
@@ -42354,13 +42352,131 @@
   
           .u-body
           {
-       
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
           --theme-sheet-width-xl: 1140px;
           --theme-sheet-width-lg: 940px;
           --theme-sheet-width-md: 720px;
           --theme-sheet-width-sm: 540px;
           --theme-sheet-width-xs: 340px;
-       
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
           }
   
           /** common-rules **/
